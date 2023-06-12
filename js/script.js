@@ -44,4 +44,6 @@ for (let worker of workers) {
     <li>${worker.position}</li>`
 }
 
+// elementi inseriti nel DOM
+
 membersElement.innerHTML = listItems;
